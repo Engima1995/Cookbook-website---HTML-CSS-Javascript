@@ -1,0 +1,895 @@
+		@font-face {
+   		 	font-family: 'lane';
+    		src: url('../fonts/Lane/LANENAR_-webfont.eot');
+    		src: url('../fonts/Lane/LANENAR_-webfont.eot?#iefix') format('embedded-opentype'),
+         	url('../fonts/Lane/LANENAR_-webfont.woff2') format('woff2'),
+         	url('../fonts/Lane/LANENAR_-webfont.woff') format('woff'),
+         	url('../fonts/Lane/LANENAR_-webfont.ttf') format('truetype'),
+         	url('../fonts/Lane/LANENAR_-webfont.svg#lane_-_narrowregular') format('svg');
+    		font-weight: normal;
+    		font-style: normal;
+
+		}
+		/*All of the content listed from body to container, are the holders for the actual 
+		  contents.*/
+		body{
+			font-family: lane, Arial, Verdana, sans-serif;
+			margin: 0;
+			height: 1200px;
+			font-size:16px;
+			font-weight: bold;
+		}
+		h2, p{
+			font-size: 14px;
+		}
+		.wrapper1{
+			background-color: #f84242;
+			height: 300px;
+			width: 100%;
+			margin-bottom: 20px;
+			padding-top: 1px;
+			box-shadow: 0px 2px 5px #888888;
+		}
+		.wrapper2{
+			height: 300px;
+			width: 100%;
+			box-shadow: 10px 10px 5px #888888;
+		}
+		.rwrapper2{
+			height: 720px;
+			width: 100%;
+			margin-top: 40px;
+			margin-bottom: 20px;
+			background-color: white;
+		}
+		.rrwrapper2{
+			height: 0px;
+			width: 100%;
+			background-color: white;
+		}
+		.spicyrwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.chestnutrwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.hummusrwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.canalrwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.butternutrwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.smokyrwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.noodlesrwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.chillirwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.loverwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.cakerwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.chocolaterwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.browniesrwrapper2{
+			width: 100%;
+			background-color: white;
+		}
+		.wrapper3{
+			width: 100%;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.starterswrapper3{
+			width: 100%;
+			margin-top: 560px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.mainwrapper3{
+			width: 100%;
+			margin-top: 560px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.desertwrapper3{
+			width: 100%;
+			margin-top: 560px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.spicywrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.chestnutwrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.hummuswrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.canalwrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.butternutwrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.smokywrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.noodleswrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.chilliwrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.lovewrapper3{
+			width: 100%;
+			margin-top: 80px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.cakewrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.chocolatewrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.brownieswrapper3{
+			width: 100%;
+			margin-top: 20px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.rwrapper3{
+			width: 100%;
+			margin-top: -360px;
+			background-color: #e5e5ea;
+			box-shadow: 0px 1px 5px #888888;
+		}
+		.wrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.rwrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.starterswrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.mainwrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.desertswrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.spicywrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.chestnutwrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.hummuswrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.canalwrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.butternutwrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.smokywrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.noodleswrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.chilliwrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.lovewrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.cakewrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.chocolateswrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.brownieswrapper4{
+			height: 300px;
+			width: 100%;
+		}
+		.wrapper5{
+			height: 20px;
+			width: 100%;
+			background-color: white;
+		}
+		.container1{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			padding: 0.1px;
+		}
+		.container2{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+		}
+		.rcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.rrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+			height: 620px;
+		}
+		.spicyrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.chestnutrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.hummusrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.canalrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.butternutrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.smokyrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.noodlesrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.chillircontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.lovercontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.cakercontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.chocolatercontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.browniesrcontainer2{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.container3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.starterscontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.maincontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.desertcontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.rcontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.spicycontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.chestnutcontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.hummuscontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.canalcontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.butternutcontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.smokycontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.noodlescontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.chillicontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.lovecontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.cakecontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.chocolatecontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.browniescontainer3{
+			margin: 0 auto;
+			width: 960px;
+			background-color: #e5e5ea;
+		}
+		.container4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.rcontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.starterscontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.maincontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.desertscontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.spicycontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.chestnutcontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.hummuscontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.canalcontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.butternutcontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.smokycontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.noodlescontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.chillicontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.lovecontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.cakecontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.chocolatecontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.browniescontainer4{
+			margin: 0 auto;
+			width: 960px;
+			height: 300px;
+			background-color: white;
+		}
+		.container5{
+			margin: 0 auto;
+			width: 960px;
+			height: 20px;
+			margin-bottom: 20px;
+		}
+
+		/*All of the code used below is for the content within the wrapper and container, on the home
+		  and recipes page. They are the code used for adjusting the various contents and positioning them to specific parts of the website.*/
+
+		.Logo{
+			width: 60px;
+			padding-top: 40px;
+			padding-left: 20px;
+			float: left;
+		}
+		.nav{
+			float: right;
+			width: 57%;
+			padding-top: 50px;
+		}
+		.nav li{
+			list-style: none;
+			position: relative;
+			float: left;
+			margin-right: 15px;
+		}
+		.nav ul ul{
+			display: none;
+			width: 50px;
+			position: absolute;
+		}
+		button[class="button"]{
+			background-color: white;
+			border-radius: 3px;
+			width: 120px;
+			height: 20px;
+			font-weight: bold;
+			margin-top: 2px;
+			color: #26252b;
+			-webkit-transition: width 1s, height 2s;
+			-moz-transition: width 1s, height 2s;
+			transition: width 1s, height 2s;
+		}
+		button[class="button"]:hover{
+			color: #f84242;
+			width: 150px;
+			height: 50px;
+		}
+		#sub2{
+			margin-left: -53px;
+		}
+		#sub2p2{
+			margin-left: -30px;
+		}
+		a{
+			text-decoration: none;
+			color: #26252b;
+			-webkit-transition: color 0.5s;
+			-moz-transition: color 0.5s;
+			transition: color 0.5s;
+		}
+		.nav a{
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+		}
+		.mininav a{
+			text-decoration: none;
+			color: white;
+		}
+		.recipes2{
+			text-align: center;
+			border-radius: 3px;
+		}
+		.recipes2 a{
+			text-decoration: none;
+			color: white;
+			padding: 3px;
+			-webkit-transition: color 0.5s;
+			-moz-transition: color 0.5s;
+			transition: color 0.5s;
+		}
+		.recipes2 a[class="recipes2"]:hover{ /*When hovering over the recipes2 class, it changes the background color to white*/
+			text-align: center;
+			color: #26252b;
+			border-radius: 3px;
+		}	
+		a:hover{
+			color: #26252b;
+		}
+
+		/*Below are the hovering changes to the href files contained within the recipes page, changing the anchor colors to red.*/
+
+		.rimg1 a[href="starters.html"]:hover, .rimg3 a[href="main.html"]:hover, .rimg5 a[href="deserts.html"]:hover, #Butternut a[href="butternut.html"]:hover, #Chilli a[href="chilli.html"]:hover{
+			color: #f84242;
+		}
+		#Smoky a[href="smoky.html"]:hover, #Noodles a[href="noodles.html"]:hover, #Spicy a[href="spicy.html"]:hover, #Chestnut a[href="chestnut.html"]:hover, #Hummus a[href="hummus.html"]:hover, #Canal a[href="canal.html"]:hover{
+			color: #f84242;
+		}
+		#Love a[href="love.html"]:hover, #Cake a[href="cake.html"]:hover, #Chocolate a[href="chocolate.html"]:hover, #Brownies a[href="brownies.html"]:hover{
+			color: #f84242;
+		}
+		#html{
+			text-align: center;
+			margin-top: 5px;
+			margin-left: -35px;
+			width: 130px;
+		}
+		#css1, #css2, #css3{
+			text-align: center;
+			margin-top: 5px;
+			margin-left: -33px;
+			width: 130px;
+		}
+		#htmlandcss ul ul{
+			padding: 10px;
+		}
+		.nav ul li:hover ul{
+			display: block;
+		}
+		#htmlandcss{
+			width: 200px;
+			margin-left: -42px;
+		}
+		.textheader{
+			margin-top: 80px;
+			margin-left: 20px;
+			width: 220px;
+			clear: both;
+			color: #26252b;
+		}
+		.text{
+			margin-top: 20px;
+			margin-left: 30px;
+			color: #26252b;
+		}
+		.text1{
+			font-size: 18px;
+		}
+		.text2, .text3{
+			font-size: 16px;
+		}
+		#button{
+			margin-top: 27px;
+			margin-left: 20px;
+			width: 200px;
+		}
+		#organic, #vegan, #hundredpercent{
+			display: inline;
+			margin-left: 40px;
+			margin-right: 118px;
+			position: relative;
+		}
+		#Organic{
+			display: inline;
+			font-weight: bold;
+		}
+		#Vegan{
+			display: inline;
+			font-weight: bold;
+		}
+		#Results{
+			display: inline;
+			font-weight: bold;
+		}
+		#c2text1, #c2text2, #c2text3{
+			display: inline;
+			margin-top: 40px;
+			color: #26252b;
+		}
+		#c2text1{
+			width: 160px;
+			margin-left: 148px;
+			line-height: 16px;
+			float: left;
+		}
+		#c2text2{
+			width: 160px;
+			margin-left: 157px;
+			line-height: 16px;
+			float: left;
+		}
+		#c2text3{
+			width: 160px;
+			margin-left: 148px;
+			line-height: 16px;
+			float: left;
+		}
+		.highlight{
+			font-weight: bold;
+			font-size: 16px;
+		}
+		.recipes{
+			margin-top: 90px;
+			margin-left: 20px;
+		}
+		.rheader1{
+			margin-bottom: 30px;
+			clear: both;
+			color: #26252b;
+		}
+		.mininav{
+			clear: both;
+			float: left;
+			margin-bottom: 30px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border-top: 1px solid;
+			border-bottom: 1px solid;
+		}
+		.rimages{
+			margin-left: 20px;
+		}
+		.rimg1{
+			display: inline;
+			float: left;
+		}
+		.rimg2{
+			margin-right: 20px;
+			width: 200px;
+			height: 190px;
+			border-radius: 5px;
+		}
+		.rimg3{
+			display: inline;
+			float: left;
+			margin-left: 40px;
+		}
+		.rimg4{
+			margin-right: 20px;
+			width: 200px;
+			height: 190px;
+			border-radius: 5px;
+		}
+		.rimg5{
+			display: inline;
+			float: left;
+		}
+		.rimg1, .rimg3, .rimg5{
+			overflow: auto;
+			width: 300px;
+		}
+		.rimg6{
+			margin-right: 20px;
+			width: 200px;
+			height: 190px;
+			border-radius: 5px;
+		}
+		.recipeimages{
+			float: right;
+			height: 300px;
+			width: 300px;
+			border-radius: 5px;
+		}
+		.rimg2:hover, .rimg4:hover, .rimg6:hover, .recipeimages:hover{
+			opacity: 0.4;
+		}
+		.rtext{
+			margin-left: 10px;
+		}
+		.rtext1{
+			color: #26252b;
+		}
+		.rtext2, .rtext3, .rtext4, .rtext5{
+			font-size: 25px;
+		}
+		#starters1, #starters2, #starters3{
+			margin-left: 20px;
+		}
+		#starters4, #starters5, #starters6, #starters7, #starters8{
+			margin-left: 20px;
+			margin-bottom: 30px;
+		}
+		#Spicy, #Chestnut, #Hummus, #Canal, #Butternut, #Smoky, #Noodles, #Chilli, #Love, #Cake, #Chocolate, #Brownies{
+			margin-left: 20px;
+		}
+		#ingredients, #crust, #topping, #filling, #sauce, #pastry, #method, #cake{
+			margin-left: 20px;
+		}
+		#ingredients, #method{
+			font-size: 20px;
+		}
+		th[colspan="1"]{
+			width: 120px;
+		}
+		th[colspan="2"]{
+			width: 1200px;
+		}
+		td{
+			font-size: 16px;
+		}
+		ul{
+			margin-left: 20px;
+		}
+		fieldset{
+			font-size: 20px;
+			border-radius: 10px;
+		}
+		table{
+			margin-left: 20px;
+			font-size: 18px;
+		}
+		table[id="table"] td, table[class="table"] td, ul[id="list"] li, ul[class="list"] li{
+			padding: 5px;
+		}
+		.form1, .text4{
+			margin-top: 50px;
+		}
+		legend{
+			color: #26252b;
+		}
+		.text4, .text5, .text6, .text7{
+			float: left;
+			color: #26252b;
+		}
+		.form1, .form2, .form3, .form4, .form5{
+			float: left;
+		}
+
+		input[type="text"]{  			
+			border-radius: 10px;
+		}
+		input[type="text"]:focus,
+		input[type="text"]:hover {
+			background-color: #f84242;
+			border-radius: 10px;
+		}
+		input[type="submit"] {
+			background-color: #f84242;
+			color: #ffffff;
+			width: 100px;
+			border-radius: 10px;
+			padding: 1px;
+			margin-top: 1px;
+		}
+		input[type="submit"]:hover {
+			background-color: #73041b;
+			color: #ffffff;
+			cursor: pointer;
+		}
+		textarea{
+			border-radius: 10px;
+		}
+		textarea:hover{
+			border-radius: 10px;
+			background-color: #f84242;	
+		}								/*All of the content before the next comment, includes images for the social networking content*/
+		#visitus{
+			font-size: 56px;
+			margin-left: 20px;
+			color: #26252b;
+		}
+		#us{
+			color: red;
+		}
+		#fbook, #twitter, #youtube{
+			display: inline;
+			float: left;
+			margin-left: 20px;
+		}
+		img{							/*Used for getting rid of the borders on images within other browsers such as Internet Explorer*/
+			border-style: none;
+		}
+		.footer{
+			font-weight: bold;
+			text-align: center;
+			color: #26252b;
+		}

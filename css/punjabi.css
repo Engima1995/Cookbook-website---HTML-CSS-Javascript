@@ -1,0 +1,58 @@
+.wrapper1{
+	margin: 0;
+}
+.wrapper3{
+	margin: 0;
+}
+.header1{
+	text-align: center;
+	border-bottom: 2px solid;
+	padding: 10px;
+}
+.container1{
+	margin: 0 auto;
+	width: 960px;
+}
+.container3{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 960px;
+	text-align: center;
+}
+button{
+	width: 100px;
+	text-decoration: underline;
+}
+.nav{
+	margin-left: 23%;
+	background-color: yellow;
+	}
+.nav ul:hover ul{
+	display: block;
+	text-decoration: underline;
+}
+.nav ul{
+	list-style: none;
+	position: relative;
+	float: left;
+}
+.nav ul ul{
+	display: none;
+	margin-left: -40px;
+	position: absolute;
+}
+table{
+	margin: 0 auto;
+	border-collapse: separate;
+}
+tr{
+
+}
+td{
+	padding-right: 60px;
+	border-bottom: 1px solid;
+}
+.text{
+	font-size: 20px;
+}
+

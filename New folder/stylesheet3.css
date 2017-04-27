@@ -1,0 +1,615 @@
+#Organic, #Vegan, #Results, #c2text1, #c2text2, #c2text3, .mininav{
+	display: none;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.all{
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*Table 1*/
+
+div.table{
+	display: table;
+	margin: 0 auto;
+	width: 80%;
+	
+}
+div.cell1{
+	display: table-cell;
+	float: right;
+}
+div.cell2{
+	display: table-cell;
+	width: 100%;
+	padding: 2%;
+	border-top: 1px solid #999;
+	border-bottom: 2px solid #111111;
+	float: left;
+	text-transform: uppercase;
+}
+div.cell3{
+	display: table-cell;
+	width: 100%;
+	padding: 2%;
+	margin-top: -20px;
+	border-bottom: 2px solid #111111;
+	float: left;
+}
+
+/*All content for all tables besides table 1*/
+
+.contentwrapper{
+	display: table;
+	margin: 0 auto;
+	width: 80%;
+}
+.container2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 20px;
+	float: left;
+}
+.rcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 50%;
+	padding: 1%;
+	margin-top: 20px;
+	float: left;
+}
+.rrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.canalrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.cakercontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.chestnutrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.chillircontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.chocolatercontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.hummusrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.lovercontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.noodlesrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.smokyrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.spicyrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.browniesrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.butternutrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.container3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	top: -100px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.rcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.starterscontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.maincontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.desertcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.canalcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.cakecontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.chestnutcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.chillicontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.chocolatecontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.hummuscontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.lovecontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.noodlescontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.smokycontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.spicycontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.browniescontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.butternutcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.container4{
+	display: table-cell;
+	padding: 1%;
+	width: 30%;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 54px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.rcontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.starterscontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.maincontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.desertscontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.canalcontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.cakecontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.chestnutcontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.chillicontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.chocolatecontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.hummuscontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.lovecontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.noodlescontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.smokycontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.spicycontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.browniescontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.butternutcontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.container5{
+	margin: 0 auto;
+	width: 100%;
+	border-top: 1px solid;
+	clear: both;
+}
+
+/*Below Navigation*/
+
+.nav{
+	width: 110%;
+	margin-left: -20px;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	margin-right: 15px;
+}
+.nav ul ul{
+	display: none;
+	width: 50px;
+	margin-left: -35px;
+}
+.nav a{
+	text-decoration: none;
+}
+.nav a:hover{
+	color: blue;
+}
+.nav a:visited{
+	color: black;
+}
+.nav ul li:hover ul{
+	display: block;
+}
+#html{
+	text-align: center;
+	margin-top: 5px;
+	margin-left: -23px;
+	width: 200px;
+}
+#css1, #css2, #css3{
+	text-align: center;
+	margin-top: 5px;
+	margin-left: -33px;
+	width: 200px;
+}
+
+/*Headers, Images, etc...*/
+
+.textheader, .text, .rheader1, .rtext1{
+	margin-left: 20px;
+}
+#organic{
+	margin-left: 6%;
+}
+#organic, #vegan, #hundredpercent{
+	float: left;
+	display: inline;
+	margin-right: 7%;
+}
+#vegan1, #organic1, #hundredpercent1{
+	width: 5em;
+	height: 5em;
+}
+.rimg1, .rimg3, .rimg5{
+	display: block;
+	margin-left: 3%;
+}
+.rimg2, .rimg4, .rimg6{
+	width: 15em;
+	height: 10em;
+}
+#fbook, #twitter, #youtube{
+	display: inline;
+}
+#fbook1, #twitter1, #youtube1{
+	width: 1.5em;
+	height: 1.5em;
+}
+#copyright{
+	margin-left: 5%;
+}
+#us{
+	font-size: 20px;
+	color: red;
+}
+img{
+	border-style: none;
+}

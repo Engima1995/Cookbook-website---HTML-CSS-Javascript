@@ -1,0 +1,43 @@
+			body {
+				font-family: comic sans ms, garamond, courier, times, sans serif;
+				background-color: #efefef;
+			}
+			div.Header1{
+				border: solid 2px;
+				border-color: black;
+			}
+			h1 {
+				border-color: black;
+				border: solid 2px;
+				width: 200px;
+				margin-left: 1%;
+			}
+			h2 {
+				color: black;
+				padding: 1%;
+				border: solid 2px;
+				border-color: black;
+			}
+			div.Header1 p {
+				font-size: 1em;
+				margin-left: 1%;
+			}
+			div.Header1 h1{
+				text-align: center;
+			}
+			.wrapper{
+				margin: 1%;
+			}
+			p.para1 {
+				font-size: 1.2em;
+			}
+			span.DC {
+				background-color: white;
+			}
+			ul{
+				border-style: solid;
+				padding: 1%;
+			}
+			ol{
+				border-style: solid;
+			}

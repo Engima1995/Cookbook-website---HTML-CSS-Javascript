@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>Veggie Shop</title>
+
+	<script type="text/javascript" src="javascript/cookie.js"></script>
+	<script type="text/javascript" src="javascript/resize.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet1.css" title="stylesheet1"/>
+	<link rel="alternate stylesheet" type="text/css" href="css/stylesheet2.css" title="stylesheet2" />
+	<link rel="alternate stylesheet" type="text/css" href="css/stylesheet3.css" title="stylesheet3" />
+
+</head>
+
+<body onload="set_style_from_cookie(); smoothresize()" onresize="smoothresize()">
+	<div class="all">
+		<div class="table">		
+			<div class="wrapper1">
+				<div class="container1">
+					<div class="Logo">
+						<div class="cell1"><h1 id="VS">VS</h1></div>
+					</div>
+					<div class="cell2"><div class="nav">
+						<ul>
+							<li><a href="cookbook - sukhwinder.html" class="button" id="home">Home</a></li>
+							<li><a href="pages/recipes.html" class="button" id="recipes">Recipes</a></li>
+							<li><a href="" class="button" id="stylesheets">Stylesheets</a>
+								<ul id="sub2">
+									<li id="stylesheet1"><button class="button" onclick="switch_style('stylesheet1');return false;">Stylesheet 1</button></li>
+									<li id="stylesheet2"><button class="button" onclick="switch_style('stylesheet2');return false;">Stylesheet 2</button></li>
+									<li id="stylesheet3"><button class="button" onclick="switch_style('stylesheet3');return false;">Stylesheet 3</button></li>
+								</ul>
+						<!--<ul id="sub2">
+							<select onchange="switch_style(this.value); return false">
+								<option value="stylesheet1">FS</option>
+								<option value="stylesheet2">2S</option>
+								<option value="stylesheet3">TS</option>
+							</select>
+						</ul>-->
+					</li>
+					<li><a href="" class="button" id="validator">Validators</a>
+						<ul id="sub2p2">
+							<li id="html"><a href="http://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p14184295/ctec1412/cookbook - sukhwinder.html">XHTML Validator</a></li>
+							<li id="css1"><a href="http://jigsaw.w3.org/css-validator/validator?uri=https://my.tech.dmu.ac.uk/~p14184295/ctec1412/css/stylesheet1.css">CSS Validator1</a></li>
+							<li id="css2"><a href="http://jigsaw.w3.org/css-validator/validator?uri=https://my.tech.dmu.ac.uk/~p14184295/ctec1412/css/stylesheet2.css">CSS Validator2</a></li>
+							<li id="css3"><a href="http://jigsaw.w3.org/css-validator/validator?uri=https://my.tech.dmu.ac.uk/~p14184295/ctec1412/css/stylesheet3.css">CSS Validator3</a></li>
+						</ul>
+					</li>
+					<li><a href="pages/explanation.html" class="button" id="explantion">Explanation</a></li>
+				</ul>
+			</div></div>
+			<div class="cell3"><div class="textheader">
+				<p class="text1">Welcome to Veggie Shop.</p>
+			</div>
+			<div class="text">
+				<p class="text2">We make sure you get the right nutrients with our style of cooking.</p>
+				<p class="text3">We provide you with the best recipes for you to get started.</p>
+				<div id="button" class="recipes2">
+					<a href="pages/recipes.html" class="recipes2">Go check out our recipes...</a>
+				</div>
+			</div></div>
+		</div>
+	</div>
+</div>
+
+<!-- All of the Content below has been taken from: -->
+<!-- URL's: -->
+<!-- http://www.iloveorganicgirl.com/images/i_heart_organic_transparent_50.png -->
+<!-- http://www.elephantjournal.com/2011/10/5-tips-for-making-the-vegan-transition/ -->
+<!-- http://thinlinejewelry.com/pages/returns -->
+<div class="contentwrapper">
+	<div class="wrapper2">
+		<div class="container2">
+			<div class="cell4"><div class="images" id="organic">
+				<img id="organic1" src="images/website/organic.png" alt="I Love Oragnic Image/Logo" width="100px" height="100px" />
+				<p id="Organic">Organic.</p>
+			</div>
+			<div class="images" id="vegan">
+				<img id="vegan1" src="images/website/vegan-icon.png" alt="Vegan Icon/Logo" width="100px" height="100px" />
+				<p id="Vegan">Vegan.</p>
+			</div>
+			<div class="images" id="hundredpercent">
+				<img id="hundredpercent1" src="images/website/hundredpercent.png" alt="100% Image/Logo" width="100px" height="100px" />
+				<p id="Results">Results.</p>
+			</div>
+		</div>
+		<div class="container2text">
+			<p id="c2text1">Our recipes are purely <span class="highlight">Organic</span>, making sure they are produced using environmentally and animal friendly farming methods on organic farms.</p>
+		</div>
+		<div class="container2text">
+			<p id="c2text2">Our recipes are purely <span class="highlight">Vegan</span>, making sure all meat, eggs, un-organic dairy products are excluded from the recipes.</p>
+		</div>
+		<div class="container2text">
+			<p id="c2text3">With our recipes, we gurantee <span class="highlight">100%</span> results.</p>
+		</div>
+	</div>
+</div>
+
+<div class="wrapper3">
+	<div class="container3">
+		<form action="http://www.elizabethcastro.com/html6ed/examples/forms/showform.php" method="post">
+			<fieldset>
+				<legend>Any Questions?</legend>
+				<table id="form">
+					<tr>
+						<td class="text4">First Name:</td>
+						<td><input class="form1" type="text" name="firstname" maxlength="30" /></td>
+					</tr>
+					<tr>
+						<td class="text5">Last Name:</td>
+						<td><input class="form2" type="text" name="lastname" maxlength="30" /></td>
+					</tr>
+					<tr>
+						<td class="text6">E-Mail:</td>
+						<td><input class="form3" type="text" name="email" /></td>
+					</tr>
+					<tr>
+						<td class="text7">Your comments:</td>
+						<td><textarea class="form4" name="comment" cols="40" rows="5"></textarea></td>
+					</tr>
+					<tr>
+						<td><input class="form5" type="submit" value="Submit" /></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+
+<!-- All of the Content below has been taken from http://iconmonstr.com-->
+
+<div class="wrapper4">
+	<div class="container4">
+		<p id="visitus">Give <span id="us">US</span> A Visit.</p>
+		<div class="images" id="fbook">
+			<a href="http://www.facebook.com"><img id="fbook1" src="images/website/fbook.png" onmouseover="this.src='images/website/fbookhover.png'" onmouseout="this.src='images/website/fbook.png'" alt="Facebook Icon" width="100px" height="100px" /></a>
+		</div>
+		<div class="images" id="twitter">
+			<a href="http://www.twitter.com"><img id="twitter1" src="images/website/twitter.png" onmouseover="this.src='images/website/twitterhover.png'" onmouseout="this.src='images/website/twitter.png'" alt="Twitter Icon" width="100px" height="100px" /></a>
+		</div>
+		<div class="images" id="youtube">
+			<a href="https://www.youtube.com"><img id="youtube1" src="images/website/youtube.png" onmouseover="this.src='images/website/youtubehover.png'" onmouseout="this.src='images/website/youtube.png'" alt="youtube Icon" width="100px" height="100px" /></a>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container5">
+		<p id="copyright">&copy; Copyright 2015</p>
+	</div>
+</div>
+</div>
+</div>
+
+
+</body>
+
+</html>

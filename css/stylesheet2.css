@@ -1,0 +1,1058 @@
+@font-face {																								/*This code is for locating the font within the public_html folder, and applying it to the "font-family" tages
+																											  within some parts of the code. Usually using the "font-family" name provided in @font-face.*/
+	font-family: 'kaushan_scriptregular';
+	src: url('../fonts/Kaushan/KaushanScript-Regular-webfont.eot');
+	src: url('../fonts/Kaushan/KaushanScript-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Kaushan/KaushanScript-Regular-webfont.woff2') format('woff2'),
+	url('../fonts/Kaushan/KaushanScript-Regular-webfont.woff') format('woff'),
+	url('../fonts/Kaushan/KaushanScript-Regular-webfont.ttf') format('truetype'),
+	url('../fonts/Kaushan/KaushanScript-Regular-webfont.svg#kaushan_scriptregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+    font-family: 'tendernessregular';
+    src: url('../fonts/Tenderness/Tenderness-webfont.eot');
+    src: url('../fonts/Tenderness/Tenderness-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Tenderness/Tenderness-webfont.woff2') format('woff2'),
+         url('../fonts/Tenderness/Tenderness-webfont.woff') format('woff'),
+         url('../fonts/Tenderness/Tenderness-webfont.ttf') format('truetype'),
+         url('../fonts/Tenderness/Tenderness-webfont.svg#tendernessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*THe content below are containers and wrappers used for containing the child contents within these boxes so they dont overlap or go out of bounds.*/
+
+body{
+	font-size: 0.6em;
+	background-image: url("../images/website/dark-wood.jpg");
+	margin: 0;
+	padding: 0;
+}
+.mininav{
+	visibility: hidden;
+}
+.wrapper1{
+	margin: 0 auto;
+	width: 60em;
+	height: 15em;
+	margin-bottom: 1.25em;
+}
+.container1{
+	margin: 0 auto;
+	width: 60em;
+	height: 15em;
+	margin-top: 1em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.contentwrapper{
+	margin: 0 auto;
+	position: relative;
+	width: 60em;
+	height: 40em;
+	margin-bottom: 2.5em;
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 45.5em;
+	height: 15em;
+	margin-left: 0.1em;
+	margin-bottom: 1.25em;
+	float:left;	
+}
+.container2{
+	margin: 0 auto;
+	padding-top: 2.5em;
+	width: 45.5em;
+	height: 13em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.rwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	height: 43em;
+	margin-left: 0.1em;
+	margin-bottom: 2em;
+	float:left;	
+}
+.rcontainer2{
+	margin: 0 auto;
+	padding: 0.5em;
+	width: 44em;
+	height: 43em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.rrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;
+	
+}
+.rrcontainer2{
+	margin: 0 auto;
+	padding: 1em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.spicyrcontainer2{
+	margin: 0 auto;
+	padding: 0.5em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.spicyrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;
+	
+}
+.smokyrcontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.smokyrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;
+}
+.browniesrcontainer2{
+	margin: 0 auto;
+	padding: 0.5em;
+	width: 44em;
+	padding: 0.8em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.browniesrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;
+}
+.butternutrcontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.butternutrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;
+}
+.cakercontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.cakerwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;	
+}
+.canalrcontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.canalrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;
+}
+.chestnutrcontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.chestnutrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;	
+}
+.chillircontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.chillirwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;	
+}
+.chocolatercontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.chocolaterwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;	
+}
+.hummusrcontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.hummusrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;	
+}
+.lovercontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.loverwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;	
+}
+.noodlesrcontainer2{
+	margin: 0 auto;
+	padding: 0.8em;
+	width: 44em;
+	border-radius: 0.313em;
+	background-color:rgba(209,171,130,0.8);
+}
+.noodlesrwrapper2{
+	margin: 0 auto;
+	width: 44em;
+	margin-bottom: 1.25em;
+	float:left;	
+}
+.wrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.container3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.rwrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.rcontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.starterswrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.starterscontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.mainwrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.maincontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.desertwrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.desertcontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.spicywrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.spicycontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.smokywrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.smokycontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.brownieswrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.browniescontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.butternutwrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.butternutcontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.cakewrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.cakecontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.canalwrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.canalcontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.chestnutwrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.chestnutcontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.chilliwrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.chillicontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.chocolatewrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.chocolatecontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.hummuswrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.hummuscontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.lovewrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.lovecontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.noodleswrapper3{
+	margin: 0 auto;
+	float: left;
+	width: 32em;
+}
+.noodlescontainer3{
+	margin: 0 auto;
+	width: 32em;
+	border-radius: 0.313em;
+}
+.wrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.container4{
+	margin: 0 auto;
+	padding: 0.5em;
+	width: 12em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.rwrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.rcontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.starterswrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.starterscontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.mainwrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.maincontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.desertswrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.desertscontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.canalwrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.canalcontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.spicywrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.spicycontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.smokywrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.smokycontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.brownieswrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.browniescontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.butternutwrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.butternutcontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.cakewrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.cakecontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.chestnutwrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.chestnutcontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.chilliwrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.chillicontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.chocolatewrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.chocolatecontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.hummuswrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.hummuscontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.lovewrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.lovecontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.noodleswrapper4{
+	margin: 0 auto;
+	width: 12em;
+	position: absolute;
+	top: 0;
+	left: 47em;
+}
+.noodlescontainer4{
+	margin: 0 auto;
+	width: 12em;
+	padding: 0.5em;
+	border-radius: 0.313em;
+	text-align: center;
+	background-color:rgba(209,171,130,0.8);
+}
+.footer{
+	margin: 0 auto;
+	width: 60em; 
+	float: right;
+	margin-top: 1em;
+}
+.container5{
+	margin: 0 auto;
+	width: 60em;
+	background-color:rgba(209,171,130,0.8);
+	border-radius: 0.313em;
+}
+
+/*All of the code used below is for the content within the wrapper and container, on the home
+  and recipes page. They are the code used for adjusting the various contents and positioning them to specific parts of the website.*/
+
+.Logo{
+	float: right;
+	margin-right: 2em;
+	padding-right: 1em;
+	position: relative;
+	top: 2em;
+}
+#VeggieShop{
+	width: 5em;
+	height: 1.2em;
+}
+#home, #recipes, #stylesheets, #validator, #explanation{
+	box-shadow: 0.063em 0.188em 0.313em #888888;
+}
+.nav{
+	font-family: kaushan_scriptregular;
+	display: block;
+	font-size: 1.1em;
+	width: 10em;
+	margin-top: 2.1em;
+	float: left;
+	padding-right: 2em;
+}
+.nav li{
+	list-style: none;
+}
+.nav ul{
+	position: relative;
+}
+.nav a{
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	border: 0.100em solid #735b2b;
+	border-radius: 0.313em;
+	color: white;
+	background-color: #493103;
+}
+.nav a{
+	margin-top: 0.125em;
+}
+.nav #sub2{
+	display: none;
+	position: absolute;
+	top: 3.6em;
+	left: 8.5em;
+	z-index: 1;
+}
+.nav #sub2p2{
+	display: none;
+	position: absolute;
+	width: 8em;
+	top: 5.2em;
+	left: 8.5em;
+	z-index: 1;
+}
+.nav #sub2p2 a{
+	margin-right: 0.125em;
+}
+.nav li:hover  a:hover{
+	background-color: #735b2b;
+}
+.nav li:hover > a{
+	background-color: #735b2b;
+}
+.nav li:hover{
+	display: block;
+}
+.nav li:hover #sub2{
+	display: inline;
+}
+.nav li:hover #sub2p2{
+	display: inline;
+}
+button{
+	width: 10em;
+	height: 3em;
+	border-radius: 0.5em;
+	background-color: #493103;
+	color: white;
+	font-family: kaushan_scriptregular;
+}
+button:hover{
+	background-color: #735b2b;
+}
+.textheader{
+	padding: 0.5em;
+	font-size: 2em; 
+	color: #735b2b;
+	font-family: kaushan_scriptregular;
+}
+.text{
+	font-size: 1em;
+	margin-left: 10.2em;
+	margin-top: -2em;
+	font-family: tendernessregular;
+}
+a[class="form1"]{
+	width: 14em;
+}
+.rheader1{
+	font-size: 2em;
+	color: #735b2b; 
+	font-family: kaushan_scriptregular;
+}.rtext1{
+	font-size: 1em;
+	font-family: tendernessregular;
+}
+table{
+	font-size: 1em;
+	margin-left: 2.5em;
+}
+table[id=form]{
+	font-size: 1em;
+	margin-left: 2.5em;
+	font-family: kaushan_scriptregular
+}
+a[class="recipes2"]{
+	color: white;
+	background-color: #493103;
+	border-radius: 3em;
+	padding-top: 0.2em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+a[class="recipes2"]:hover{
+	color: white;
+	background-color: #735b2b;
+	border-radius: 3em;
+	padding-top: 0.2em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-decoration: none;
+}
+input.form5{
+	height: 3em;
+	width: 5em;
+}
+input[class="form1"], input[class="form2"], input[class="form3"], textarea[class="form4"]{
+	margin-left: 1em;
+	width: 15em;
+	border-radius: 0.5em;
+}
+textarea[class="form4"]{
+	margin-top: 0.5em;
+}
+input[type=text]{
+	background-color: white;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+input[type="text"]:hover {
+	background-color: #735b2b;
+	border: 0.063em solid #999999;
+}
+textarea[name="comment"]{
+	background-color: white;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+textarea:hover[name="comment"]{
+	background-color: #735b2b;
+	border: 0.063em solid #999999;
+}
+input[type="submit"] {
+	border: 0.063em solid #006633;
+	background-color: #493103;
+	color: #ffffff;
+	border-radius: 0.313em;
+	padding: 0.313em;
+	margin-top: 0.625em;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+input[type="submit"]:hover {
+	border: 0.063em solid #006633;
+	background-color: #735b2b;
+	color: #ffffff;
+	cursor: pointer;}
+textarea{
+	height: 1.3em;
+	width: 12.9em;
+}
+#recipes2{
+	float: right;
+	margin-right: 1em;
+}
+#organic, #vegan, #hundredpercent{
+	display: inline;
+	margin-left: 2.5em;
+	margin-right: 4em;
+	position: relative;
+	color: #735b2b;
+	font-family: kaushan_scriptregular;
+}
+#organic1, #vegan1, #hundredpercent1{
+	height: 4em;
+	width: 4em;
+	border-radius: 1em;
+	border: 0.100em solid #493103;
+	box-shadow: 0.063em 0.188em 0.313em #888888;
+}
+#Organic{
+	display: inline;
+}
+#Vegan{
+	display: inline;
+}
+#Results{
+	display: inline;
+	overflow: auto;
+}
+#c2text1{
+	width: 10em;
+	position: absolute;
+	top: 7em;
+	left: 6.8em;
+	font-size: 1em;
+	line-height: 1em;
+	font-family: tendernessregular;
+}
+#c2text2{
+	width: 10em;
+	position: absolute;
+	top: 7em;
+	left: 21.4em;
+	font-size: 1em;
+	line-height: 1em;
+	font-family: tendernessregular;
+}
+#c2text3{
+	width: 10em;
+	position: absolute;
+	top: 7em;
+	left: 35.3em;
+	font-size: 1em;
+	line-height: 1em;
+	font-family: tendernessregular;
+}
+#visitus{
+	font-family: kaushan_scriptregular;
+	color: #493103;
+}
+#us{
+	font-size: 1.3em;
+	color: red;
+}
+.recipeimages{
+	float: right;
+	width: 15em;
+	height: 15em;
+	margin-top: 1.20em;
+	border-radius: 0.313em;
+	border: 0.313em solid;
+}
+.recipeimages:hover{
+	opacity: 0.4;
+}
+a{
+	text-decoration: none;
+	color: #493103;
+}
+.rimg1, .rimg3, .rimg5{
+	display: inline;
+	float: left;
+	overflow: auto;
+	padding: 0.2em;
+}
+.rimg2, .rimg4, .rimg6{
+	height: 11em;
+	width: 13.5em;
+	border-radius: 0.313em;
+	border: 0.313em solid;
+}
+.rimg2:hover, .rimg4:hover, .rimg6:hover{
+	opacity: 0.4;
+}
+.rimg1, .rimg5{
+	margin-left: 1.4em;
+}
+.rimg3{
+	margin-left: 1.5em;
+}
+.rimg5{
+	margin-top: 1em;
+}
+.rimg1 a[href="starters.html"]:hover, .rimg3 a[href="main.html"]:hover, .rimg5 a[href="deserts.html"]:hover, #Butternut a[href="butternut.html"]:hover, #Chilli a[href="chilli.html"]:hover{
+	color: #735b2b;
+}
+#Smoky a[href="smoky.html"]:hover, #Noodles a[href="noodles.html"]:hover, #Spicy a[href="spicy.html"]:hover, #Chestnut a[href="chestnut.html"]:hover, #Hummus a[href="hummus.html"]:hover, #Canal a[href="canal.html"]:hover{
+	color: #735b2b;
+}
+#Love a[href="love.html"]:hover, #Cake a[href="cake.html"]:hover, #Chocolate a[href="chocolate.html"]:hover, #Brownies a[href="brownies.html"]:hover{
+	color: #735b2b;
+}
+th[colspan="1"]{
+	width: 7.5em;
+}
+th[colspan="2"]{
+	width: 75em;
+}
+p[id=starters1], p[id=starters2], p[id=starters3], p[id=starters4]{
+	font-family: tendernessregular;
+}
+#ingredients, #method{
+	font-family: kaushan_scriptregular;
+}
+td, tr, h3, ul[class="list"], table[id="table"], ul[id="list"]{
+	font-family: tendernessregular;
+}
+a[class="read"]{
+	font-family: kaushan_scriptregular;
+}
+legend{
+	color: #735b2b;
+	background-color:rgba(209,171,130,0.8);
+	border: 0.100em solid #493103;
+	border-radius: 0.313em;
+	box-shadow: 0.063em 0.188em 0.313em #888888;
+	font-family: kaushan_scriptregular;
+}
+fieldset{
+	background-color:rgba(209,171,130,0.8);
+	border: 0.100em solid #493103;
+	border-radius: 0.313em;
+}
+.rtext2, .rtext3, .rtext4, .rtext5{
+	font-size: 1.8em;
+	font-family: kaushan_scriptregular;
+} 
+#fbook, #twitter, #youtube{
+	display: block;
+}
+#fbook1, #twitter1, #youtube1{
+	height: 3.4em;
+	width: 3.4em;
+	border-radius: 1em;
+	box-shadow: 0.063em 0.188em 0.313em #888888;
+}
+#copyright{
+	margin-left: 1em;
+	padding: 0.5em;
+	font-size: 0.7em;
+}
+img{
+	border-style: none;
+}

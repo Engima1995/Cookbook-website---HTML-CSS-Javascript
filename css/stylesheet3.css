@@ -1,0 +1,779 @@
+@font-face {																					/*This code is for locating the font within the public_html folder, and applying it to the "font-family" tages
+																								   within some parts of the code. Usually using the "font-family" name provided in @font-face.*/
+	font-family: 'caviar_dreamsregular';
+	src: url('../fonts/Caviar/CaviarDreams-webfont.eot');
+	src: url('../fonts/Caviar/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Caviar/CaviarDreams-webfont.woff2') format('woff2'),
+	url('../fonts/Caviar/CaviarDreams-webfont.woff') format('woff'),
+	url('../fonts/Caviar/CaviarDreams-webfont.ttf') format('truetype'),
+	url('../fonts/Caviar/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+#Organic, #Vegan, #Results, #c2text1, #c2text2, #c2text3, .mininav{						/*This is the information part for the images: "Organic", "Vegan" and "100%", that have been turned off within the html page.*/
+	display: none;
+}
+
+/*THe content below are containers and wrappers used for containing the child contents within these boxes so they dont overlap or go out of bounds.*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.all{
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*Table 1*/
+
+div.table{
+	display: table;
+	margin: 0 auto;
+	width: 80%;
+	
+}
+div.cell1{
+	display: table-cell;
+	float: right;
+}
+div.cell2{
+	display: table-cell;
+	width: 100%;
+	padding: 2%;
+	border-top: 1px solid #999;
+	border-bottom: 2px solid #111111;
+	float: left;
+	box-shadow: 0px 0px 5px #888888;
+	text-transform: uppercase;
+}
+div.cell3{
+	display: table-cell;
+	font-family: caviar_dreamsregular;
+	width: 100%;
+	padding: 2%;
+	border-bottom: 2px solid #111111;
+	float: left;
+}
+
+/*All content for all tables besides table 1*/
+
+.contentwrapper{
+	display: table;
+	margin: 0 auto;
+	width: 80%;
+}
+.container2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 20px;
+	float: left;
+}
+.rcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 50%;
+	padding: 1%;
+	margin-top: 20px;
+	float: left;
+}
+.rrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.canalrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.cakercontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.chestnutrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.chillircontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.chocolatercontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.hummusrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.lovercontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.noodlesrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.smokyrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.spicyrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.browniesrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.butternutrcontainer2{
+	display: table-cell;
+	margin: 0 auto;
+	width: 48%;
+	padding: 1%;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+.container3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	min-width: 300px;
+	top: -100px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.rcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.starterscontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.maincontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.desertcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.canalcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.cakecontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.chestnutcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.chillicontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.chocolatecontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.hummuscontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.lovecontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.noodlescontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.smokycontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.spicycontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.browniescontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.butternutcontainer3{
+	display: table-cell;
+	margin: 0 auto;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 7%;
+	margin-bottom: -60px;
+}
+.container4{
+	display: table-cell;
+	padding: 1%;
+	width: 30%;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 54px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.rcontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.starterscontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.maincontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.desertscontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.canalcontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.cakecontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.chestnutcontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.chillicontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.chocolatecontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.hummuscontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.lovecontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.noodlescontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.smokycontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.spicycontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.browniescontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.butternutcontainer4{
+	display: table-cell;
+	margin: 0 auto;
+	width: 20%;
+	position: relative;
+	top: 42px;
+	margin-right: 10%;
+	clear: both;
+	float: right;
+}
+.container5{
+	margin: 0 auto;
+	width: 100%;
+	border-top: 1px solid;
+	clear: both;
+}
+
+/*Below is the Navigation*/
+
+.nav{
+	width: 110%;
+	margin-left: -20px;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	margin-right: 15px;
+}
+.nav ul ul{
+	display: none;
+	width: 50px;
+	margin-left: -35px;
+}
+.nav a{
+	text-decoration: none;
+}
+.nav li a[id="home"], .nav li a[id="recipes"], .nav li a[id="stylesheets"], .nav li a[id="validator"], .nav li a[id="explanation"]{
+	color: black;
+}
+.nav li a[id="home"]:hover, .nav li a[id="recipes"]:hover, .nav li a[id="stylesheets"]:hover, .nav li a[id="validator"]:hover, .nav li a[id="explanation"]:hover{
+	color: #5b1902;
+}
+a[class="recipes2"]{
+	width: 120px;
+	background-color: white;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 2px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+a[class="recipes2"]:hover{
+	background-color: white;
+	color: #5b1902;
+}
+li a[class="html"], li a[class="css1"], li a[class="css2"], li a[class="css3"]{
+	color: black;
+	font-size: 16px;
+	-webkit-transition: font-size 0.5s;
+	-moz-transition: font-size 0.5s;
+    transition: font-size 0.5s;
+}
+li a[class="html"]:hover, li a[class="css1"]:hover, li a[class="css2"]:hover, li a[class="css3"]:hover{
+	color: #5b1902;
+	font-size: 20px;
+}
+.nav ul li:hover ul{
+	display: block;
+}
+#html{
+	text-align: center;
+	margin-top: 5px;
+	margin-left: -23px;
+	width: 200px;
+}
+#css1, #css2, #css3{
+	text-align: center;
+	margin-top: 5px;
+	margin-left: -33px;
+	width: 200px;
+}
+button[class="button"]{
+	width: 120px;
+	height: 20px;
+	background-color: white;
+	text-transform: uppercase;
+	border-radius: 5px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border: 1px solid;
+	-webkit-transition: height 0.5s;
+	-moz-transition: height 0.5s;
+    transition: height 0.5s;
+}
+button[class="button"]:hover{
+	color: #5b1902;
+	width: 140px;
+	height: 30px;
+}
+
+/*Headers, Images, etc...*/
+
+a{
+	text-decoration: none;
+	color: black;
+}
+legend{
+	font-family: caviar_dreamsregular;
+}
+fieldset{
+	box-shadow: 5px 5px 5px #888888;
+}
+td[class="text4"], td[class="text5"], td[class="text6"], td[class="text7"]{
+	font-family: caviar_dreamsregular;
+}
+input[class="form1"], input[class="form2"], input[class="form3"], textarea[class="form4"]{
+	border-radius: 3px;
+	box-shadow: 1px 0px 5px #888888;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+input[class="form1"]:hover, input[class="form2"]:hover, input[class="form3"]:hover, textarea[class="form4"]:hover{
+	background-color: #bebbba;
+}
+input[class="form5"]{
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	font-family: caviar_dreamsregular;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+input[class="form5"]:hover{
+	background-color: white;
+	color: #5b1902;
+	font-family: caviar_dreamsregular;
+}
+.textheader, .text, .rheader1, .rtext1{
+	margin-left: 20px;
+}
+#organic{
+	margin-left: 6%;
+}
+#organic, #vegan, #hundredpercent{
+	float: left;
+	display: inline;
+	margin-right: 7%;
+	border-radius: 20px;
+	box-shadow: 2px 0px 5px #888888;
+}
+#vegan1, #organic1, #hundredpercent1{
+	width: 5em;
+	height: 5em;
+}
+th[colspan="1"]{
+	width: 120px;
+	font-family: caviar_dreamsregular;
+}
+th[colspan="2"]{
+	width: 1200px;
+	font-family: caviar_dreamsregular;
+}
+.rimg1, .rimg3, .rimg5{
+	display: block;
+	margin-left: 3%;
+}
+.rimg2, .rimg4, .rimg6{
+	width: 15em;
+	height: 10em;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+.rimg2:hover, .rimg4:hover, .rimg6:hover{
+	opacity: 0.4;
+}
+.recipeimages{
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+}
+.recipeimages{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+.recipeimages:hover{
+	opacity: 0.4;
+}
+#starters1, #starters2, #starters3, #starters4{
+	font-family: caviar_dreamsregular;
+}
+#ingredients, #method{
+	font-family: caviar_dreamsregular;
+}
+ul[id="list"], ul[class="list"]{
+	list-style-image: url("../images/website/star.png");
+}
+td, tr, h3, ul[class="list"], table[id="table"], ul[id="list"]{
+	font-family: caviar_dreamsregular;
+}
+.rimg1 a[href="starters.html"], .rimg3 a[href="main.html"], .rimg5 a[href="deserts.html"], #Butternut a[href="butternut.html"], #Chilli a[href="chilli.html"]{
+	font-family: caviar_dreamsregular;
+}
+#Smoky a[href="smoky.html"], #Noodles a[href="noodles.html"], #Spicy a[href="spicy.html"], #Chestnut a[href="chestnut.html"], #Hummus a[href="hummus.html"], #Canal a[href="canal.html"]{
+	font-family: caviar_dreamsregular;
+}
+#Love a[href="love.html"], #Cake a[href="cake.html"], #Chocolate a[href="chocolate.html"], #Brownies a[href="brownies.html"]{
+	font-family: caviar_dreamsregular;
+}
+.rimg1 a[href="starters.html"]:hover, .rimg3 a[href="main.html"]:hover, .rimg5 a[href="deserts.html"]:hover, #Butternut a[href="butternut.html"]:hover, #Chilli a[href="chilli.html"]:hover{
+	color: #5b1902;
+}
+#Smoky a[href="smoky.html"]:hover, #Noodles a[href="noodles.html"]:hover, #Spicy a[href="spicy.html"]:hover, #Chestnut a[href="chestnut.html"]:hover, #Hummus a[href="hummus.html"]:hover, #Canal a[href="canal.html"]:hover{
+	color: #5b1902;
+}
+#Love a[href="love.html"]:hover, #Cake a[href="cake.html"]:hover, #Chocolate a[href="chocolate.html"]:hover, #Brownies a[href="brownies.html"]:hover{
+	color: #5b1902;
+}
+#visitus{
+	font-family: caviar_dreamsregular;
+}
+#fbook, #twitter, #youtube{
+	display: inline;
+}
+#fbook1, #twitter1, #youtube1{
+	width: 1.5em;
+	height: 1.5em;
+}
+#copyright{
+	margin-left: 5%;
+	font-family: caviar_dreamsregular;
+}
+#us{
+	font-size: 20px;
+	color: red;
+}
+img{
+	border-style: none;
+}

@@ -1,0 +1,118 @@
+/*THe content below are containers and wrappers used for containing the child contents within these boxes so they dont overlap or go out of bounds.*/
+
+body{
+	background-color: #efefef;
+	margin: 0;
+}
+.container1{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 1px;
+}
+.container2{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	clear: both;
+}
+.container3{
+	width: 960px;
+	margin: 0 auto;
+}
+.wrapper2{
+	margin-top: 100px;
+}
+
+/*Changes to any content within the containers or wrappers*/
+
+p{
+	margin-bottom: 30px;
+}
+.header{
+	float: left;
+}
+.nav{
+	float: right;
+	width: 50%;
+}
+.nav li{
+	list-style: none;
+	position: relative;
+	float: left;
+	margin-right: 15px;
+}
+.nav ul ul{
+	display: none;
+	margin-left: -39px;
+	width: 170px;
+    position: absolute;
+}
+.nav ul li:hover ul{
+	display: block;
+}		
+#ack{
+	text-decoration: underline;
+}
+#para1{
+	font-size: 1.2em;
+	margin-top: 10px;
+	padding-bottom: 2px;
+}
+.no2, .no3, .no4, .no5, .no6, .no7, .no8, .no9, .no10, .no12{
+	display: inline;
+	float: left;
+	width: 600px;
+	height: 200px;
+	margin: 3px;
+	border-bottom: 1px solid;
+}
+.no8{
+	height: 1630px;
+}
+.no12{
+	height: 500px;
+}
+.no5, .no6, .no7{
+	margin-top: 10px;
+}
+.no8, .no9, .no10{
+	margin-top: 10px;
+}
+.no11{
+	display: inline;
+	float: left;
+	width: 600px;
+	height: 350px;
+	margin: 3px;
+	margin-top: 10px;
+	border-bottom: 1px solid;
+}
+.bold{
+	font-weight: bold;
+}
+p{
+	font-size: 1.1em;
+	margin-top: -12px;
+}
+.link{
+	font-size: 1.2em;
+}
+.hvalidator{
+	margin-left: 81.6%;
+}
+.cvalidator{
+	margin-left: 91%;
+	margin-top: -45px;
+}
+#xhtml{
+	width: 90px;
+	height: 40px;
+	padding-top: 255px;
+	border-style: none;
+}
+#css{
+	width: 90px;
+	height: 40.5px;
+	border-style: none;
+}
+
